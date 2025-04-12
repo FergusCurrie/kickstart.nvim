@@ -483,6 +483,9 @@ require('lazy').setup({
       },
     },
   },
+  {
+    'karloskar/poetry-nvim',
+  },
   -- {
   -- 'ThePrimeagen/harpoon',
   --branch = 'harpoon2',
