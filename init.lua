@@ -426,6 +426,11 @@ require('lazy').setup({
             require('telescope.themes').get_dropdown(),
           },
         },
+        defaults = {
+          file_ignore_patterns = {
+            'node_modules',
+          },
+        },
       }
 
       -- Enable Telescope extensions if they are installed
@@ -482,6 +487,12 @@ require('lazy').setup({
         { path = '${3rd}/luv/library', words = { 'vim%.uv' } },
       },
     },
+  },
+  {
+    'stevearc/oil.nvim',
+  },
+  {
+    'numToStr/Comment.nvim',
   },
   {
     'karloskar/poetry-nvim',
@@ -691,6 +702,7 @@ require('lazy').setup({
         -- clangd = {},
         -- gopls = {},
         pyright = {},
+        tailwindcss = {},
         -- rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
@@ -698,7 +710,7 @@ require('lazy').setup({
         --    https://github.com/pmizio/typescript-tools.nvim
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
-        -- ts_ls = {},
+        ts_ls = {},
         --
 
         lua_ls = {
