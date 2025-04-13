@@ -183,7 +183,13 @@ vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' }
 vim.keymap.set('n', '<D-o>', '<c-o>')
 vim.keymap.set('n', '<D-e>', '<c-e>')
 vim.keymap.set('n', '<D-y>', '<c-y>')
+vim.keymap.set('n', '<D-b>', '<c-b>')
+vim.keymap.set('n', '<D-f>', '<c-f>')
+vim.keymap.set('n', '<D-d>', '<c-d>')
+vim.keymap.set('n', '<D-u>', '<c-u>')
 
+vim.keymap.set('n', '<D-i', '<c-i>')
+--vim.keymap.set('n', '<D-r>', '<c-r>')
 -- TIP: Disable arrow keys in normal mode
 -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
 -- vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
