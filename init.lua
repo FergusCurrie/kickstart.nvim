@@ -518,11 +518,11 @@ require('lazy').setup({
   {
     'karloskar/poetry-nvim',
   },
-  -- {
-  -- 'ThePrimeagen/harpoon',
-  --branch = 'harpoon2',
-  --dependencies = { 'nvim-lua/plenary.nvim' },
-  -- },
+  {
+    'ThePrimeagen/harpoon',
+    branch = 'harpoon2',
+    dependencies = { 'nvim-lua/plenary.nvim' },
+  },
   {
     -- Main LSP Configuration
     'neovim/nvim-lspconfig',
