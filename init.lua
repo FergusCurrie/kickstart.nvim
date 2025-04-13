@@ -181,6 +181,8 @@ vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' }
 
 -- mac mappings
 vim.keymap.set('n', '<D-o>', '<c-o>')
+vim.keymap.set('n', '<D-e>', '<c-e>')
+vim.keymap.set('n', '<D-y>', '<c-y>')
 
 -- TIP: Disable arrow keys in normal mode
 -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
